@@ -1,0 +1,30 @@
+Public Module Program
+	Public Class Auto
+		Public dblBar As Double
+
+		Public Sub New(dblBar As Double)
+			Me.dblBar = dblBar
+		End Sub
+
+		Public Function GetBar() As Double
+			Return dblBar
+		End Function
+
+		Public Sub SetBar(dblBar As Double)
+			Me.dblBar = dblBar
+			dblBar = 5.0
+		End Sub
+
+		Public Function Trip() As Double
+			Return dblBar -= 1
+		End Function
+
+		Public Function Pompen() As Double
+			Return dblBar += 1
+		End Function
+	End Class
+
+	Public Sub Main()
+		
+	End Sub
+End Module

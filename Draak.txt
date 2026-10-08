@@ -1,0 +1,26 @@
+Public Module FantasieBeesten
+	Class Draak
+		Public strNaam As String
+		Public intLeeftijd As Integer
+		Public strOrigin As String
+		Public boolIsMan As Boolean
+		Public strClassificatie As String
+
+		Public Sub New(strNaam As String, intLeeftijd As Integer, strOrigin As String, boolIsMan As Boolean, strClassificatie As String)
+			Me.strNaam = strNaam
+			Me.intLeeftijd = intLeeftijd
+			Me.strOrigin = strOrigin
+			Me.boolIsMan = boolIsMan
+			Me.strClassificatie = strClassificatie
+		End Sub
+	End Class
+
+	public Sub Main()
+		Dim objDrogon As New Draak("Drogon", 7, "Game of Thrones", true, "Dragon")
+		Dim objViserion As New Draak("Viserion" , 6, "Game of Thrones", true, "Dragon, Wight")
+		Dim objRhaegal As New Draak("Rhaegal", 7, "Game of Thrones", true, "Dragon")
+		
+		
+	
+	End Sub
+End Module
